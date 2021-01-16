@@ -1,0 +1,31 @@
+ #sutun{
+    width: 11%;
+    height:60vh;
+    background-color: #222;
+    padding: 8px;
+    margin:auto;
+    border-radius: 40px;
+   }
+
+#sutun>div{border-radius: 50%;
+    margin: 28px auto;
+    width: 70%;
+    height:15vh;
+    opacity: 0.1;
+  
+   }
+
+.qirmizi{
+
+    background-color: rgba(248, 0, 0)
+}
+.sari{
+     background-color: rgba(167, 170, 5);
+}
+.yasil{
+      background-color: rgba(21, 187, 15);
+}
+
+#sutun > div.on { 
+    opacity: 1; transition: opacity 200ms linear;   box-shadow: 0 6px 8px 0 rgba(255, 254, 254, 0.2),0 6px 8px 0 rgba(61, 61, 61, 0.19);  } 
+
