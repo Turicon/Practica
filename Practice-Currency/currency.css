@@ -1,0 +1,59 @@
+
+body
+{
+  background-image: url(https://s.france24.com/media/display/9be0653a-2167-11eb-8d34-005056bf87d6/w:1280/p:16x9/2020-11-08T020527Z_1078578312_RC2QYJ953Q4U_RTRMADP_3_USA-ELECTION-BIDEN.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+h1{
+  color:white;
+}
+.ptagigorunsun{ 
+  width: 20%;
+  height:5vh;
+    background-color:rgba(255, 255, 255, 0.959);
+ box-shadow: 3px 3px 5px 3px #888888;
+  display:none;
+  margin-top:20px;
+  font-size: 20px;
+text-align: center;
+padding-top:20px ;
+
+}
+.ptagigorunsun.visible{
+display: block;
+
+}
+#sekilAZN{ 
+  width: 20%;
+  height:35vh;
+margin-top:25px;
+position: relative;
+/* display:block; */
+left:20px;
+
+}
+
+.inputlar{width: 100%;
+  height: 10vh;
+  display:flex;
+
+}
+#myInput{
+width: 180px;
+  height: 8vh;
+
+
+}
+
+#convert{
+  margin:15px 5px 0 5px;
+
+}
+input::placeholder {
+  color: rgb(0, 0, 0);
+  font-size: 1em;
+
+}
+
